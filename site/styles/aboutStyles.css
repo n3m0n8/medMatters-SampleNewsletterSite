@@ -1,0 +1,396 @@
+/* All Styling*/
+/*General styling*/
+        *{
+            box-sizing: border-box;
+            font-family: "Julius Sans One";
+            font-weight: 600;
+            }
+        /* Body Styling*/
+            html, body {
+                margin: 0%;
+                padding: 0%;
+                background-color:rgb(248, 240, 233);
+            }   
+            .paragraph {
+                margin: 3em;
+                text-align: justify;
+            }
+            .paragraph-container {
+                margin: 1em auto; 
+            }
+/*Desktop Styling*/
+@media only screen and (min-width: 800px) {
+    /* -Navigation Styling*/
+                .main-nav-style {
+                    position: fixed;
+                    width: 100%;
+                    padding-left: 3%;
+                    padding-right: 5.5%;
+                    z-index: 1;
+                }
+                .main-nav-style ul {
+                    margin-left: -3.5%;
+                    margin-top: -3%;
+                    border-radius:17%;
+                    width: 100vw;
+                    background-color: black;
+                    padding-top: 1%;
+                    padding-bottom: 1%;
+                }
+                .main-nav-style li {
+                    display: inline;
+                    font-size: medium;
+                    font-weight: 600;
+                }
+                .main-nav-style a {
+                    padding: 0.5%;
+                    color:rgb(186, 236, 208);
+                    text-align: center;
+                    text-decoration: none;
+                }
+                .main-nav-style a:hover {
+                    background-color: rgb(10, 59, 41);
+                    border-radius: 40%;
+                }
+                .translate-btn{
+                    height: 2%;
+                    width: 2%;
+                    margin-left: 0%;
+                    margin-bottom: 0%;
+                }
+                .g-translate{
+                    position: absolute;
+                    margin-left: 3%;
+                    margin-top: -2%;
+                }
+/*Main Body Styling*/ 
+.about-header{
+    padding-left: 5%;
+    padding-right:7%;
+    padding-top: 5%;
+    font-size: x-large;
+    margin-bottom: 3%;
+}
+.about-description{
+    margin-top:0%;
+    padding-left: 5%;
+    padding-right:7%;
+    font-size: larger;
+    margin-bottom: 1%;
+    width: 100vw;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 20px;
+}
+.about-team-profile-header{
+   padding-left: 5%;
+   font-size: x-large;
+   margin-bottom: 3%;
+   margin-top:3%;
+}
+.about-team-profile-container{
+    display: flex;
+    max-height: 50%;
+    padding-left: 15%;
+    padding-right: 5%;
+    width: 90vw;
+}
+.about-team-profile-card{
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: larger;
+    border: solid;
+    border-color: black;
+    border-right: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    margin-right: 2%;
+    margin-bottom:2%;
+}
+.about-team-profile-photo{
+    height: 250px;
+    border: solid;
+    max-width: 200px;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 25%;
+    float:left;
+    margin-bottom: 6%;
+}
+.about-team-profile-text{
+    font-size: medium;
+    text-align: justify;
+    flex-wrap: wrap;
+    margin-right: 4%;
+    max-width: 70%;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 17px;
+}
+.privacy-policy{
+    margin-top:3%;
+    margin-left: 5%;
+    margin-right:0%;
+    margin-bottom: 1%;
+    width: 88vw;
+    height: 90vh;
+    display: inline-block;
+    border: solid;
+    border-color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    cursor:text;
+    font-size: medium;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 20px;
+}
+.privacy-header{
+    font-size: x-large;
+    margin: 1%;
+    text-align: left;
+}
+.privacy-text{
+    font-size: medium;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.privacy-text-headers{
+    font-size: medium;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 20px;
+}
+ul{
+    list-style-type:square;
+    font-size: medium;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 20px;
+}
+ul li{
+    font-size: medium;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 20px;
+}
+i {
+    font-size: medium;
+    font-family: "Alegreya";
+    font-weight: 500;
+    font-size: 20px;
+}
+ /* -Footer Styling*/
+ .footer-container{
+    background-color: black;
+    padding-bottom: 7%;
+    display: inline-block;
+    margin-left: -1.5%;
+    width: 110%;
+}
+.footer-header{
+   display:inline;
+   position: relative;
+   padding-left: 25%;
+   padding-right: 10%;
+   font-size: x-large;
+   color:rgb(186, 236, 208); 
+}
+.footer-logos{
+    align-self: center;
+    padding-left: 25%;
+    padding-right: 15%;
+}    
+}
+@media only screen and (max-width: 799px) {
+    /* -Navigation Styling*/
+    .main-nav-style {
+        position: fixed;
+        width: 100vw;
+        padding-left: 0%;
+        padding-right: 0%;
+        z-index: 1;
+    }
+    .main-nav-style ul {
+        margin-left: -10%;
+        margin-top: -6%;
+        border-radius:1%;
+        width: 110vw;
+        background-color: black;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .main-nav-style li {
+        display: inline;
+        font-size: 12px;
+    }
+    .main-nav-style a {
+        padding: 2%;
+        color:rgb(186, 236, 208);
+        text-align: center;
+        text-decoration: none;
+    }
+    .main-nav-style a:hover {
+        background-color: rgb(10, 59, 41);
+        border-radius: 25%;
+
+    }
+    .translate-btn{
+        height: 5%;
+        width: 5%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+    .g-translate{
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+            /*Main Body Styling*/ 
+            .about-header{
+                padding-left: 5%;
+                padding-right:7%;
+                padding-top: 10%;
+                font-size: x-large;
+            }
+            .about-description{
+                margin-top:0%;
+                padding-left: 5%;
+                padding-right:7%;
+                font-size: larger;
+                padding-bottom: 6%;
+                width: 100vw;
+                font-family: "Alegreya";
+                font-weight: 400;
+                font-size: 20px;
+            }
+            .about-team-profile-header{
+            padding-left: 5%;
+            font-size: x-large;
+            margin-bottom: 3%;
+            margin-top:3%;
+            }
+            .about-team-profile-container{
+                display: flex;
+                flex-direction: column;
+                max-height: 50%;
+                padding-left: 25%;
+                padding-right: 5%;
+                width: 100vw;
+            }
+            .about-team-profile-card{
+                padding-left: 0%;
+                padding-right: 0%;
+                font-size: larger;
+                border: solid;
+                border-color: black;
+                border-right: 1px;
+                border-top: 0px;
+                border-bottom: 0px;
+                border-left: 0px;
+                margin-right: 2%;
+                margin-bottom:2%;
+            }
+            .about-team-profile-photo{
+                height: 250px;
+                border: solid;
+                max-width: 200px;
+                border-color: black;
+                border-width: 3px;
+                border-radius: 25%;
+                float:left;
+                margin-bottom: 6%;
+            }
+            .about-team-profile-text{
+                font-size: medium;
+                text-align: justify;
+                flex-wrap: wrap;
+                margin-right: 4%;
+                max-width: 80%;
+                font-family: "Alegreya";
+                font-weight: 400;
+                font-size: 17px;
+            }
+            .privacy-policy{
+                margin-top:3%;
+                margin-left: 5%;
+                margin-right:0%;
+                margin-bottom: 1%;
+                width: 88vw;
+                height: 90vh;
+                display: inline-block;
+                border: solid;
+                border-color: black;
+                overflow-x: hidden;
+                overflow-y: scroll;
+                cursor:text;
+                font-size: medium;
+                font-family: "Alegreya";
+                font-weight: 400;
+                font-size: 20px;
+            }
+            .privacy-header{
+                font-size: x-large;
+                margin: 1%;
+                text-align: left;
+            }
+            .privacy-text{
+                font-size: medium;
+                font-family: "Alegreya";
+                font-weight: 400;
+                font-size: 20px;
+                text-align: justify;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+            .privacy-text-headers{
+                font-size: medium;
+                font-family: "Alegreya";
+                font-weight: 400;
+                font-size: 20px;
+            }
+            ul{
+                list-style-type:square;
+                font-size: medium;
+                font-family: "Alegreya";
+                font-weight: 400;
+                font-size: 20px;
+            }
+            ul li{
+                font-size: medium;
+                font-family: "Alegreya";
+                font-weight: 400;
+                font-size: 20px;
+            }
+            i {
+                font-size: medium;
+                font-family: "Alegreya";
+                font-weight: 500;
+                font-size: 20px;
+            }
+            /* -Footer Styling*/
+            .footer-container{
+                background-color: black;
+                padding-bottom: 1%;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            .footer-header{
+               flex:1;
+               text-align: center;
+               padding-left: 3%;
+               padding-right: 3%;
+               font-size: x-large;
+               color:rgb(186, 236, 208); 
+            }
+            .footer-logos{
+                padding-left: 35%;
+                padding-right: 10%;
+            }   
+}

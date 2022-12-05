@@ -1,0 +1,343 @@
+/* All Styling*/
+/*General styling*/
+*              {
+    box-sizing: border-box;
+    font-family: "Julius Sans One";
+    font-weight: 600;
+    }
+/* Body Styling*/
+    html, body {
+        margin: 0%;
+        padding: 0%;
+        background-color:rgb(248, 240, 233);
+    }   
+    .paragraph {
+        margin: 3em;
+        text-align: justify;
+    }
+    .paragraph-container {
+        margin: 1em auto; 
+    }
+/*Desktop Styling*/     
+@media only screen and (min-width: 800px) {
+    /* -Navigation Styling*/
+                .main-nav-style {
+                    position: fixed;
+                    width: 100%;
+                    padding-left: 3%;
+                    padding-right: 0%;
+                    z-index: 1;
+                }
+                .main-nav-style ul {
+                    margin-left: -3.5%;
+                    margin-top: -3%;
+                    border-radius:17%;
+                    width: 100vw;
+                    background-color: black;
+                    padding-top: 1%;
+                    padding-bottom: 2%;
+                }
+                .main-nav-style li {
+                    display: inline;
+                }
+                .main-nav-style a {
+                    padding: 0.5%;
+                    color:rgb(186, 236, 208);
+                    text-align: center;
+                    text-decoration: none;
+                }
+                .main-nav-style a:hover {
+                    background-color: rgb(10, 59, 41);
+                    border-radius: 40%;
+                }
+                .translate-btn{
+                    height: 2%;
+                    width: 2%;
+                    margin-left: 0%;
+                    margin-bottom: 0%;
+                }
+                .g-translate{
+                    position: absolute;
+                    margin-left: 3%;
+                    margin-top: -2%;
+                }
+/*Main Body Styling*/
+.country-profiles-header{
+    position: relative;
+    padding-top: 5%;
+    padding-left:3%;
+    width:95%;
+} 
+.country-profiles-para{
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 20px;
+    width:95%;
+    padding-left:3%;
+    text-align: justify;
+}
+.country-profiles-container{
+    width: 94%;
+    height: 85vh;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    display: inline-flex;
+    margin-top:0%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+.prev-country{
+    flex: 1;
+    position: relative;
+    height: 10%;
+    max-width: 9%;
+    border: solid;
+    border-color: black;
+    border-radius: 15%;
+    background-color: rgba(186, 236, 208, 0.200);
+    cursor:context-menu;
+}
+.country-profiles-img{
+    flex:2;
+    border: solid;
+    border-color: black;
+    border-radius:25%;
+    border-width:1px;
+    max-height: 270px;
+    max-width: 240px;
+    cursor:wait;
+    margin-left: -8%;
+    margin-top: 7%;
+    margin-bottom: 0.5%;
+}
+.country-profiles-text-container{
+    flex:3;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    width: 60vw ;
+    height: 65vh;
+    margin-left: 1%;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    cursor:ns-resize;
+}
+.country-profiles-text-header{
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Julius Sans One";
+    font-weight: 600;
+}
+.country-profiles-text{
+    text-align: justify;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 20px;
+}
+.country-map{
+    flex:4;
+    border: solid;
+    border-style: dashed;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    margin-left: 1%;
+    margin-right: -7%;
+    margin-top: 7%;
+    margin-bottom: 0.5%;
+
+}
+.next-country{
+    flex:5;
+    height: 10%;
+    max-width: 9%;
+    border: solid;
+    border-color: black;
+    border-radius: 15%;
+    background-color: rgba(186, 236, 208, 0.200);
+    cursor:context-menu;
+}
+ /* -Footer Styling*/
+ .footer-container{
+    background-color: black;
+    padding-bottom: 7%;
+    display: inline-block;
+    margin-left: -0.5%;
+    width: 100%;
+}
+.footer-header{
+   display:inline;
+   position: relative;
+   padding-left: 30%;
+   padding-right: 10%;
+   font-size: x-large;
+   color:rgb(186, 236, 208); 
+}
+.footer-logos{
+    align-self: center;
+    padding-left: 32%;
+    padding-right: 15%;
+}    
+}
+/*Mobile Styling*/     
+@media only screen and (max-width: 799px) {
+    .main-nav-style {
+        position: fixed;
+        width: 100vw;
+        padding-left: 0%;
+        padding-right: 0%;
+        z-index: 1;
+    }
+    .main-nav-style ul {
+        margin-left: -10%;
+        margin-top: -6%;
+        border-radius:1%;
+        width: 110vw;
+        background-color: black;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .main-nav-style li {
+        display: inline;
+        font-size: 12px;
+    }
+    .main-nav-style a {
+        padding: 2%;
+        color:rgb(186, 236, 208);
+        text-align: center;
+        text-decoration: none;
+    }
+    .main-nav-style a:hover {
+        background-color: rgb(10, 59, 41);
+        border-radius: 25%;
+
+    }
+    .translate-btn{
+        height: 5%;
+        width: 5%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+    .g-translate{
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+/*Main Body Styling*/
+.country-profiles-header{
+    position: relative;
+    padding-top: 5%;
+    padding-left:3%;
+    width:95%;
+} 
+.country-profiles-para{
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 20px;
+    width:95%;
+    padding-left:3%;
+    text-align: justify;
+}
+.country-profiles-container{
+    width: 94%;
+    height: auto;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top:0%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+.prev-country{
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    border: solid;
+    border-color: black;
+    border-radius: 15%;
+    background-color: rgba(186, 236, 208, 0.200);
+    cursor:context-menu;
+}
+.country-profiles-img{
+    flex:2;
+    border: solid;
+    border-color: black;
+    border-radius:25%;
+    border-width:1px;
+    max-height: 40vh;
+    max-width: 80vw;
+    cursor:wait;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.country-profiles-text-container{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 90vw ;
+    height: 100vh;
+    margin-left: 1%;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    cursor:ns-resize;
+}
+.country-profiles-text-header{
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Julius Sans One";
+    font-weight: 600;
+}
+.country-profiles-text{
+    text-align: justify;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 20px;
+}
+.country-map{
+    flex:4;
+    border: solid;
+    border-style: dashed;
+    border-color: rgb(0, 0, 0);
+    width: 90vw;
+    height: 80vh;
+    border-width: 1px;
+    margin-left: 1%;
+    margin-right: -7%;
+    margin-top: 7%;
+    margin-bottom: 0.5%;
+
+}
+.next-country{
+    flex:5;
+    width: 100%;
+    border: solid;
+    border-color: black;
+    border-radius: 15%;
+    background-color: rgba(186, 236, 208, 0.200);
+    cursor:context-menu;
+}
+  /* -Footer Styling*/
+  .footer-container{
+    background-color: black;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.footer-header{
+   flex:1;
+   text-align: center;
+   padding-left: 3%;
+   padding-right: 3%;
+   font-size: x-large;
+   color:rgb(186, 236, 208); 
+}
+.footer-logos{
+    padding-left: 35%;
+    padding-right: 10%;
+}      
+}
